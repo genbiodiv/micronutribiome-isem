@@ -23,7 +23,6 @@ import {
   BarChart,
   Bar,
   Cell,
-  ScatterChart,
   Scatter,
   ZAxis,
   ReferenceLine,

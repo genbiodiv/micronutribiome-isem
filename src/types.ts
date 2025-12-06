@@ -1,5 +1,4 @@
 
-
 export interface ISEMComponent {
   name: string;
   score: number;
@@ -50,8 +49,11 @@ export interface PatientProfile {
   timeSeries: TimePoint[];
 }
 
-export enum ViewState {
-  LANDING = 'LANDING',
-  DASHBOARD = 'DASHBOARD'
-}
+// Fixed: Use const object instead of enum to avoid TS1294 error
+export const ViewState = {
+  LANDING: 'LANDING',
+  DASHBOARD: 'DASHBOARD'
+} as const;
+
+export type ViewState = typeof ViewState[keyof typeof ViewState];
 

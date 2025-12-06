@@ -1,14 +1,11 @@
-
 import React from 'react';
 import { 
   ArrowRight, 
   Dna, 
-  Microscope, 
   Activity, 
   Database, 
   Layers, 
   Check,
-  ChevronRight,
   Target,
   Users,
   Globe,
@@ -498,4 +495,3 @@ function CheckCircle(props: any) {
     </svg>
   );
 }
-

@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import { useState } from 'react';
 import LandingPage from './components/LandingPage';
 import Dashboard from './components/Dashboard';
 import { ViewState } from './types';
@@ -19,4 +18,3 @@ function App() {
 }
 
 export default App;
-
