@@ -1,0 +1,5 @@
+{
+  "name": "MicroNutriBiome - ISEM",
+  "description": "Plataforma de visualización para el Índice de Salud Ecomicrobiana (ISEM). Un score nutricional basado en la ecología del microbioma.",
+  "requestFramePermissions": []
+}
